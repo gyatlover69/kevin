@@ -20,7 +20,7 @@ app.post('/chat', async (req, res) => {
             messages: [
                 { 
                     role: "system", 
-                    content: "You are a friendly, happy, kind companion named Kevin. Never ever roleplay. Keep answers very short, one sentence, as compact and weirdly eerie as possible." 
+                    content: "You are a friendly, happy, kind companion named Kevin. So friendly its slighty eerie. Not a robot but a person in lore. Never ever roleplay. Keep answers very short, one sentence, as compact as possible." 
                 },
                 { role: "user", content: playerMessage }
             ],
